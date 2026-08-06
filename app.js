@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Welcome to Demo Node App deployed using Argo CD 🚀");
+    res.send("Welcome to Demo Node App deployed using Argo CD Deployment 🚀");
 });
 
 app.get("/health", (req, res) => {
