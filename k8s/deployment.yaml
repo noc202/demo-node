@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-node
-        image: demo-node:v2
+        image: 9680264173/argocdnodedemo:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
