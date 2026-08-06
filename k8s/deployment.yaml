@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-node
-        image: demo-node:v1
-        imagePullPolicy: IfNotPresent
+        image: demo-node:v2
         ports:
         - containerPort: 3000
