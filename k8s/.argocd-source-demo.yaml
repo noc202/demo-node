@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - 9680264173/argocdnodedemo:0627bf53c099c0755d7a082705752cd79aaa7947
+  - 9680264173/argocdnodedemo:4d74112c17db9d9f02d44eae69a2e58a77e04d04
